@@ -1,0 +1,57 @@
+#navbar{
+    
+    display: flex; /*another property used the list of elements iin row wise */ /*for parent display flex is used*/
+    justify-content: space-between; /* horizontally align*/
+    align-items: center; /* vertically align*/
+    width: 100%;
+    /* margin-left:100px; */
+    background-color: black;
+
+}
+.listitem{
+    display: inline-block; /*for contents in list this inline-block is used*/
+    list-style: none; /*this propoerty is used to hide the styles in list elements..eg:bullet,rommannumber ,nmbers etc*/
+    margin: 10px 20px;
+    font-size: 25px;
+
+   
+}
+.links{
+    text-decoration: none; /*avoid the links underline*/
+    color: white;
+    font-weight: bolder;
+}
+
+.links:hover{
+    color: gray;
+}
+.image1{
+    width: 100%;
+}
+.image2{
+    margin-left: 480px;
+    margin-top: -380px;
+    /* width: 100px; */
+}
+/* .images{
+    width: 50%;
+    height: 50%;
+} */
+
+.image3{
+    margin-left: 860px;
+    margin-top: -403px;
+    /* width: 100px; */
+}
+
+.p{
+     /*another property used the list of elements iin row wise */ /*for parent display flex is used*/
+    justify-content: space-between; /* horizontally align*/
+    align-items: center; /* vertically align*/
+    width: 100%;
+    /* margin-left:100px; */
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding-left: 250px;
+}
